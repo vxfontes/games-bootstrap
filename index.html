@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>aereagames</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- header amarela -->
+        <div class="row bg-warning p-2">
+            <div class="col-2"></div>
+            <div class="col-5"><img src="img/icon1.png" width="120" class="img-fluid"></div>
+            <div class="col">
+                <button type="button" class="btn btn-light btn-outline-secondary">Registrar</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-light btn-outline-secondary">Entrar</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-light btn-outline-secondary">Português</button>
+            </div>
+            <div class="col-2"></div>
+            
+        </div>
+
+        <div class="cont position-relative">
+            <!-- CARROSSEL -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/imgCarousel1.jfif" height="550" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>NBA 2K21</h5>
+                            <p>NBA 2K21 é um jogo de basquete que foi desenvolvido
+                                pela Visual Concepts e publicado pela 2K Sports.</p>
+                            <button type="button" class="btn btn-danger m-0 rounded rounded-pill">Jogue
+                                    agora</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imgCarousel2.jfif" height="550" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Grand Theft Auto 5</h5>
+                            <p>Grand Theft Auto V é um jogo eletrônico de ação-aventura
+                                 desenvolvido pela Rockstar North e publicado pela Rockstar Games.</p>
+                            <button type="button" class="btn btn-danger m-0 rounded rounded-pill">Jogue
+                                    agora</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imgCarousel3.jfif" height="550" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Street Fighter</h5>
+                            <p>Street Fighter, popularmente abreviado para SF, é uma popular série de jogos de luta 
+                                na qual o jogador controla lutadores de diversas partes do mundo, cada qual 
+                                com seus golpes especiais.</p>
+                            <button type="button" class="btn btn-danger m-0 rounded rounded-pill">Jogue
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="container-fluid position-absolute top-0 d-flex align-middle mt-3">
+                <div class="col"></div>
+                <div class="col-9">
+                    <nav class="navbar bg-warning navbar-expand-lg navbar-light rounded rounded-3">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/icon2.png" height="40">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse rounded rounded-3" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Jogos
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Jogos para PC</a></li>
+                                            <li><a class="dropdown-item" href="#">Jogos para navegador</a></li>
+                                            <li><a class="dropdown-item" href="#">Jogos para celular</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Comunidade
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Fórum</a></li>
+                                            <li><a class="dropdown-item" href="#">Notícias</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Suporte</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Oportunidades</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+
+
+        <!-- div central da página -->
+        <div class="content">
+            <div class="row">
+                <div class="col"></div>
+
+                <!-- parte central com conteudo -->
+                <div class="col-9 midCenter ">
+
+                    <!-- Div de jogos em destaque -->
+                    <div class="gamesDestaque mb-3 mt-3 border rounded rounded-3">
+                        <div class="topDestaque bg-warning mb-2">
+                            <h7 class="ms-2 text-light"><b>Jogos em destaque</b></h7>
+                            <a class="btn text-light buttons" href="#">Mais</a>
+                        </div>
+                        <div class="row">
+                            <div class="col ps-4">
+                                <img class="img-fluid border border-3 rounded mx-auto d-block"
+                                    src="img/games/destaque/farcry6.jpeg">
+                                <h7><b>Far cry 6</b></h7>
+                                <p class="text-primary"><b>Jogo de história</b></p>
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid border border-3 rounded mx-auto d-block"
+                                    src="img/games/destaque/new-world.jpeg">
+                                <h7><b>New world</b></h7>
+                                <p class="text-primary"><b>Jogo de RPG</b></p>
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid border border-3 rounded mx-auto d-block"
+                                    src="img/games/destaque/fifa22.jfif">
+                                <h7><b>Fifa 22</b></h7>
+                                <p class="text-primary"><b>Jogo de futebol</b></p>
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid border border-3 rounded mx-auto d-block"
+                                    src="img/games/destaque/back4blood.jfif">
+                                <h7><b>Back 4 blood</b></h7>
+                                <p class="text-primary"><b>Jogo de história</b></p>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+
+                    <!-- div com jogos para pc e pra celular -->
+                    <div class="row">
+
+                        <!-- JOGOS PARA PC -->
+                        <div class="col-8">
+                            <div class="mb-3 mt-3 border rounded rounded-3">
+                                <div class="topPC bg-warning mb-2">
+                                    <h7 class="ms-2 text-light"><b>Jogos para PC</b></h7>
+                                    <a class="btn text-light buttons" href="#">Mais</a>
+                                </div>
+                                <div class="row">
+                                    <div class="col ps-4">
+                                        <img class="img-fluid border border-3 rounded mx-auto d-block"
+                                            src="img/games/pc/csgo.jfif">
+                                        <p>Português</p>
+                                    </div>
+                                    <div class="col">
+                                        <h7><b>Counter strike</b></h7>
+                                        <p><span class="text-primary"><b>Jogo de FPS</b></span><br>
+                                            Counter-Strike: Global Offensive é um jogo multiplayer em primeira pessoa
+                                            desenvolvido pela Valve e
+                                            Hidden Path Entertainment. É o quarto jogo da série Counter-Strike.</p>
+                                    </div>
+
+                                    <div class="col ps-5">
+                                        <img class="img-fluid border border-3 rounded mx-auto d-block"
+                                            src="img/games/pc/fallout-4.jfif">
+                                        <p>Português</p>
+                                    </div>
+                                    <div class="col pe-4">
+                                        <h7><b>Fallout 4</b></h7>
+                                        <p><span class="text-primary"><b>Jogo de RPG</b></span><br>
+                                            Este RPG tem possibilidades verdadeiramente ilimitadas, você não quer deixar
+                                            este mundo
+                                            pós-apocalíptico. Mas é hora de passar muitas horas vagando pelo deserto de
+                                            Fallout 4. </p>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col ps-4">
+                                        <img class="img-fluid border border-3 rounded mx-auto d-block"
+                                            src="img/games/pc/phasmophobia.jfif">
+                                        <p>Inglês</p>
+                                    </div>
+                                    <div class="col">
+                                        <h7><b>Phasmophobia</b></h7>
+                                        <p><span class="text-primary"><b>Jogo de terror</b></span><br>
+                                            Phasmofobia é um 4 jogador de terror psicológico cooperativo online. A
+                                            atividade paranormal
+                                            está em ascensão e cabe a você e sua equipe usar todos os equipamentos de
+                                            caça fantasma à sua
+                                            disposição.</p>
+                                    </div>
+
+                                    <div class="col ps-5">
+                                        <img class="img-fluid border border-3 rounded mx-auto d-block"
+                                            src="img/games/pc/valorant.jfif">
+                                        <p>Português</p>
+                                    </div>
+                                    <div class="col pe-4">
+                                        <h7><b>Valorant</b></h7>
+                                        <p><span class="text-primary"><b>Jogo de FPS</b></span><br>
+                                            Valorant é um jogo multijogador gratuito de tiro em primeira pessoa
+                                            desenvolvido pela Riot Games.
+                                            Foi anunciado pela primeira vez em um evento de comemoração de 10 anos de
+                                            League of Legends.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- COLUNA DE JOGOS PARA CELULAR -->
+                        <div class="col">
+                            <div class="mb-3 mt-3 border rounded rounded-3">
+                                <div class="topPC bg-danger mb-2 rounded-top">
+                                    <h7 class="ms-2 text-light"><b>Jogos para celular</b></h7>
+                                    <a class="btn text-light buttons" href="#">Mais</a>
+                                </div>
+                                <div class="row">
+                                    <div class="col ps-4">
+                                        <img class="img-fluid border border-3 rounded mx-auto d-block"
+                                            src="img/games/celular/minecraft.JPG">
+                                        <p>Português</p>
+                                    </div>
+                                    <div class="col pe-4">
+                                        <h7><b>Minecraft</b></h7>
+                                        <p><span class="text-primary"><b>Jogo de aventura</b></span><br>
+                                            Minecraft é um jogo eletrônico sandbox de sobrevivência criado pelo
+                                            desenvolvedor sueco Markus
+                                            "Notch" Persson e posteriormente desenvolvido e publicado pela Mojang
+                                            Studios, cuja propriedade
+                                            intelectual foi obtida pela Microsoft em 2014.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- GAMES LOGO ABAIXO -->
+                    <div class="row">
+                        <div class="col">
+                            <div class="p-2 border rounded rounded-3 position-relative">
+                                <img class="img-fluid" src="img/games/batman.jfif">
+                                <div class="settext text-light text-end">
+                                    <img src="img/games/batmanicon.png" width="120">
+                                    <p>
+                                        Batman: Arkham Knight é um jogo eletrônico de
+                                        ação-aventura produzido pela Rocksteady Studios.
+                                    </p>
+                                    <button type="button" class="btn btn-danger m-0 rounded rounded-pill">Jogue
+                                        agora</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-2 border rounded rounded-3 position-relative">
+                                <img class="img-fluid" src="img/games/nba2k21.jfif">
+                                <div class="settext text-light text-end">
+                                    <img src="img/games/nbaicon.png" width="100">
+                                    <p>
+                                        NBA 2K21 é um jogo de basquete que foi desenvolvido
+                                        pela Visual Concepts e publicado pela 2K Sports.
+                                    </p>
+                                    <button type="button" class="btn btn-danger m-0 rounded rounded-pill">Jogue
+                                        agora</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col"></div>
+            </div>
+        </div>
+
+        <!-- footer amarelo -->
+        <div class="row footerBotton mt-3 bg-warning">
+            <div class="icon1"><img src="img/icon1.png" width="120"></div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
