@@ -10,5 +10,8 @@
   <img align="center" src="https://github.com/vxfontes/games-bootstrap/blob/main/img/interfaces/principal2.png" width="49%" height="45%">
 </div>
 
+<br />
+<br />
+
 https://user-images.githubusercontent.com/63061509/202736119-f8cad550-0208-4fec-b119-61cb8c23f2fe.mp4
 
