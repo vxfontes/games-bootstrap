@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 .setcolor{
     background-color: #fef201;
     color: white;
@@ -24,6 +22,7 @@
 
 .cont{
     display: flex;
+    justify-content: center;
     width: 100%;
 }
 
